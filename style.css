@@ -1,0 +1,144 @@
+.hec{
+    margin-top: 200px;
+}
+.imgg{
+    opacity: .7;
+}
+.imgg :hover{
+    transition: .4s;
+    opacity: 1;
+    height: 200px;
+}
+.btn{
+    text-transform: uppercase;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    color:rgb(44, 42, 42);
+    border: 0px;
+}
+.btn-bt{
+    text-transform: uppercase;
+    border: 0ch;
+    height: 40px;
+    background-color: rgb(42, 40, 40);
+    color: white;
+}
+.navbar{
+    justify-content: end;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+.nav-link{
+    text-align: right;
+}
+.top{
+    background-color: black;
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120px;
+    color: transparent;
+    line-height: 1.1;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);   
+}
+.pic{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: .7;
+    
+}
+.par{
+    font-size: 20px;
+}
+.nav-link{
+    justify-content: end;
+}
+.scrollspy-example{
+    color: white;
+    border-top: 2px solid white;
+    border: 0;
+}
+.h5{
+    text-transform: uppercase;
+}
+.h1{
+    -webkit-text-stroke: 1px rgb(255, 255, 255); 
+    line-height: 1.1;
+    line-height: 1.4;
+    font-weight: 900;
+    font-size: 70px;
+}
+.h2{
+    left: 110px;
+    top: 1340px;
+    position: absolute;
+    font-size: 50px;
+    
+    
+}
+.mbwakni{
+    font-size: 150px;
+    color: transparent;
+    line-height: 1.1;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.dark{
+    background-color:rgb(42, 40, 40) ;
+}
+.cadi  {
+    
+    border-radius: 10px;
+
+}
+.cadi img{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    opacity: .3;
+    size: 100px;
+}
+.card{
+    border: transparent;
+    background-color:rgb(42, 40, 40) ;
+
+}
+.cadi :hover img{
+    opacity: 1;
+    size: 200px;
+    
+}
+.cont{
+    font-size: 150px;
+    color: transparent;
+    line-height: 1.1;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.hire{
+    left: 110px;
+    top: 2130px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.nav-pills .nav-link.active, .nav-link{
+    color: #ffffff;
+    background-color: black!important;
+
+}
+
+   
