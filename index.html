@@ -4,7 +4,8 @@
   <link rel="icon" href="images/hec.jpg" type="image/jpg"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <script src="https://kit.fontawesome.com/1f8378c25b.js" crossorigin="anonymous"></script>
     <meta name="description" content="Mr.H">
     <meta name="keywords" content="Hector Julius, My Profile">
@@ -39,192 +40,147 @@
 
  
 
-  <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg  navbar-Dark px-3">
-    <div class="container mt-2 pb-2">
+ <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container mt-2 pb-2">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#news">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-
-        <ul  class="nav nav-pills ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#news">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          
-        </ul>
+<!-- Navbar start -->
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <!-- First section -->
+  <div class="container-fluid mt-3 top" id="home">
+    <div class="row">
+      <div class="col-md-6 mb-5 hec text-center">
+        <h5 class="h5" style="color: white; text-align: center;">Designer & Developer</h5>
+        <h1 class="h1" style="font-size: 60px; text-align: center; color: white;">Hello<i class="far fa-smile-beam"></i><br>I'm Hector</h1>
+        <a href="#about" class="btn">More About Me<i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-bt">Hire Me<i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="col-md-6 mb-5">
+        <img class="imgg" src="images/hec.jpg" alt="Mr.h" height="600px" style="object-fit: cover;">
       </div>
     </div>
-  </nav>
-  
-    <!--Navbar start-->
-    
-      <!--ends navbar-->
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">  
-    <!--first section-->
-    
-    <div class="container-fluid mt-3  top " id="home" >
-        <div class="row">
-            <div class="col-md-6 mb-5 hec text-center" >
-              
-                          
-             
-                            <h5  class="h5" style="color: white; text-align: center;">Designer & Developer</h5>
-                            <h1 class="h1" style="font-size: 60px; text-align: center; color: white;">Hello<i class="far fa-smile-beam"></i><br>I`m Hector</h1>
-                            <a href="#about" class="btn">More About Me<i class="fas fa-arrow-right"></i></a><a href="#contact" class="btn btn-bt">Hire Me<i class="fas fa-arrow-right"></i></a>
-                            
-
-
-            </div>
-            <div class="col-md-6 mb-5">
-                <img id="home" class="imgg" src="images/hec.jpg" alt="Mr.h" height="600px" style="object-fit: cover;" >
-            </div>
-        </div>
-
+  </div>
+  <hr>
+  <div class="container-fluid hector" style="background-color: black;" id="home">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center" style="color: rgb(255, 255, 255); font-size: 100px;">
+          I design and Develop<br>
+          experiences that make<br>
+          People's lives <strong style="text-transform: uppercase; -webkit-text-stroke: 1px rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif;">Simple.</strong>
+        </p>
+      </div>
     </div>
-    <hr> 
-    <div class="container-fluid hector " style="background-color: black;" id="home">
+  </div>
+  <hr>
+  <div class="container-fluid top" id="about">
+    <div class="row">
+      <div class="col-md-4 mb-3 hec text-center">
+        <img class="pic" src="images/lagos-techie-Esu7vO5THyE-unsplash.jpg" alt="about me">
+      </div>
+      <div class="col-md-8">
+        <h1 style="text-align: center;" class="about">ABOUT ME</h1>
+        <div class="container">
+          <p style="text-align: center;" class="lead">Creative Designer & Developer</p>
+          <hr>
+          <p class="par">My name is Hector Julius. I am a Web Developer, and I'm very passionate and dedicated to my work.<br><br><br>With one year experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="container-fluid dark" id="news">
+      <h1 class="mbwakni">NEWS</h1>
+      <h2>Latest News</h2>
+      <!-- First card -->
       <div class="row">
-        <div class="col-md-12">
-          <p class="text-center" style="color: rgb(255, 255, 255); font-size: 100px; ">
-            I design and Develop<br>
-            experiences that make<br>
-            People`s lives <strong style="text-transform: uppercase;
-            -webkit-text-stroke: 1px rgb(255, 255, 255);
-            font-family: 'Times New Roman', Times, serif;">Simple.</strong>
-          </p>
+        <div class="col-md-4 cadi">
+          <div class="card">
+            <img src="images/alexandru-acea--WBYxmW4yuw-unsplash.jpg" alt="rider" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">New Technology</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit ducimus fugiat nemo, deleniti unde blanditiis minima consectetur dicta qui?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 cadi">
+          <div class="card">
+            <img src="images/clint-patterson-dYEuFB8KQJk-unsplash.jpg" alt="rider" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Data Security</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit ducimus fugiat nemo, deleniti unde blanditiis minima consectetur dicta qui?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 cadi">
+          <div class="card">
+            <img src="images/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg" alt="rider" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Coding Life</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit ducimus fugiat nemo, deleniti unde blanditiis minima consectetur dicta qui?</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <hr>
-
-
-    
-      <div class="container-fluid  top " id="about">
-          <div class="row">
-              <div class="col-md-4 mb-3 hec text-center">
-                <img   class="pic" src="images/lagos-techie-Esu7vO5THyE-unsplash.jpg" alt="about me">
-                  
-  
-              </div>
-              <div class="col-md-8">
-                <h1 style="text-align:center;"  class="about" >ABOUT ME</h1>
-                <div class="container">
-                  <p style="text-align: center;" class="lead">Creative Designer & Developer</p>
-                <hr>
-                <p class="par">My name is Hector Julius. I am a Web Developer, and I'm very passionate and dedicated to my work.<br><br><br>
-
-                  With one year experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
-                </div>
-                
-                
-              </div>
-          </div>
-  
+  </section>
+  <section>
+    <div class="container-fluid top" id="contact">
+      <h1 class="cont">CONTACT</h1>
+      <h2 >GET IN TOUCH</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="lead">Please fill out the form on this section to contact me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Request</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button><br><br>
+            <h1>To Contact Me directly,</h1>
+            <a href="mailto:hectorjulius51@gmail.com"><i class="far fa-envelope">&nbsp;Send Email</i></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="tel:+254716656513"><i class="fas fa-phone-volume">&nbsp;+254716656513</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://msng.link/o/?hector_julius_4l_=ig"><i class="fab fa-instagram">&nbsp;Message me on Instagram</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://wa.me/+254716656513"><i class="fab fa-whatsapp">&nbsp; Whatsapp me</i></a>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img src="images/—Pngtree—contact our telephone customer service_5412847.png" alt="" height="500px">
+        </div>
       </div>
-
-      <section>
-        <div class="container-fluid dark " id="news">
-          <h1 class="mbwakni">NEWS</h1>
-          <h2 class="h2">Latest News</h2>
-          
-          <!--first card-->
-          <div class="row">
-          <div class=" col-md-4 cadi">
-            <div class="card">
-              <img src="images/alexandru-acea--WBYxmW4yuw-unsplash.jpg" alt="rider" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-tittle">New Technology</h5>
-                <P class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit ducimus fugiat nemo, deleniti unde blanditiis minima consectetur dicta qui?
-                </P>
-                
-              </div>
-            </div>
-    
-          </div>
-          <div class=" col-md-4 cadi">
-            <div class="card">
-              <img src="images/clint-patterson-dYEuFB8KQJk-unsplash.jpg" alt="rider" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-tittle">Data Security</h5>
-                <P class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit ducimus fugiat nemo, deleniti unde blanditiis minima consectetur dicta qui?
-                </P>
-                
-              </div>
-            </div>
-    
-          </div>
-          <div class=" col-md-4 cadi">
-            <div class="card">
-              <img src="images/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg" alt="rider" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-tittle">Coding Life</h5>
-                <P class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit ducimus fugiat nemo, deleniti unde blanditiis minima consectetur dicta qui?
-                </P>
-                
-              </div>
-            </div>
-    
-          </div>
-          </div>
-          
-
-        </div>
-      </section>
-      <section>
-        <div class="container-fluid top" id="contact">
-          <h1 class="cont">CONTACT</h1>
-          <h2 class="hire">GET IN TOUCH</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <p class="lead">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Request</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button><br><br>
-                <h1>To Contact Me directly,</h1>
-                <a href = "mailto: hectorjulius51@gmail.com"><i class="far fa-envelope">&nbsp;Send Email</i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="tel:+254716656513"><i class="fas fa-phone-volume">&nbsp;+254716656513</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://msng.link/o/?hector_julius_4l_=ig"><i class="fab fa-instagram">&nbsp;Message me on Instagram</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://wa.me/+254716656513"><i class="fab fa-whatsapp">&nbsp; Whatsapp me</i></a>
-                
-              </form>
-            </div>
-
-            <div class="col-md-6">
-              <img src="images/—Pngtree—contact our telephone customer service_5412847.png" alt="" height="500px">
-              
-            </div>
-          </div>
-        </div>
-      </section>
-     
-                
-                
-
-  
-
-    
     </div>
+  </section>
+</div>
+</div>
+
 
 
 
