@@ -160,5 +160,150 @@
       background-color: black;
       border: #ffffff;
   }
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-links-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fffcfc;
+  }
+  
+  .contact-link i {
+    margin-right: 5px;
+  }
+  
+  .contact-link-text {
+    font-weight: bold;
+  }
+  .contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #060606;
+    border-radius: 5px;
+  }
+  
+  .contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-form button:disabled {
+    background-color: #999999;
+    cursor: not-allowed;
+  }
 
+  .about {
+    font-size: 24px;
+  }
+  
+  @media (min-width: 576px) {
+    /* Small devices (576px and up) */
+    .about {
+      font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Medium devices (768px and up) */
+    .about {
+      font-size: 40px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Large devices (992px and up) */
+    .about {
+      font-size: 48px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Extra large devices (1200px and up) */
+    .about {
+      font-size: 56px;
+    }
+  }
+  .responsive-text {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  @media (min-width: 576px) {
+    /* Small devices (576px and up) */
+    .responsive-text {
+      font-size: 60px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Medium devices (768px and up) */
+    .responsive-text {
+      font-size: 80px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Large devices (992px and up) */
+    .responsive-text {
+      font-size: 100px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Extra large devices (1200px and up) */
+    .responsive-text {
+      font-size: 120px;
+    }
+  }
+    
+  
    
