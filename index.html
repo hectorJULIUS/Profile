@@ -36,6 +36,32 @@
     
 </head>
 <body>
+  <!-- Preloader -->
+<div id="preloader">
+  <div class="spinner"></div>
+  <img src="images/IMG_3956-removebg-preview.png" alt="Logo">
+</div>
+
+<!-- Your website content -->
+<div id="content">
+  <!-- Your website content here -->
+</div>
+<script>
+  window.addEventListener('load', function() {
+  var preloader = document.getElementById('preloader');
+  var content = document.getElementById('content');
+
+  // Simulate loading time
+  setTimeout(function() {
+    preloader.style.display = 'none';
+    content.classList.add('show');
+  }, 2000); // Adjust the delay time (in milliseconds) as desired
+});
+
+</script>
+
+
+
   
 
 
