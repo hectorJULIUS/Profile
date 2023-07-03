@@ -137,7 +137,7 @@
 
 .nav-pills .nav-link.active, .nav-link{
     color: #ffffff;
-    background-color: black!important;
+   
 
 }
 .body{
@@ -454,31 +454,31 @@
       transform: translateY(0);
     }
   }
-  .fading-circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+ .fading-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fading-circle .circle {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  animation: fade 1s linear infinite;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
   }
-  
-  .fading-circle .circle {
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    border-radius: 50%;
-    animation: fade 1s linear infinite;
+  50% {
+    opacity: 1;
   }
-  
-  @keyframes fade {
-    0%,
-    100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  
+}
+
     
   
    
