@@ -169,7 +169,7 @@
   .contact-links-row {
     
     justify-content: space-between;
-    margin-bottom: 10px;
+    
   }
   
   .contact-link {
@@ -382,5 +382,6 @@
       margin-left: 10px;
     }
   }
+  
   
    

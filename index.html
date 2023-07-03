@@ -69,7 +69,7 @@
 <!-- Navbar start -->
 <div class="scrollspy-example" style="overflow-y: scroll; width: 100%; height: 100vh; background-color: black;">
   <!-- First section -->
-  <div class="container-fluid mt-3 top" id="home">
+  <div class="container mt-3 top" id="home">
     <div class="row">
       <div class="col-md-6 mb-5 hec text-center">
         <h5 class="h5" style="color: white; text-align: center;">Designer & Developer</h5>
@@ -151,56 +151,87 @@
   </section>
   <section  id="contact" style="background-color: rgb(0, 0, 0);">
     
-      <div class="row">
-        <div class="col-md-10">
-          <div class="contact-form">
+      
+        <div class=" row ">
+          <div class="contact-form ">
             <form>
               <h1 style="text-align: center;" class="about">Contact Me.</h1>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-              </div>
+            
               <div class="form-group">
                 <label for="message">Message</label>
                 <textarea id="message" class="form-control" placeholder="Enter your message" rows="4" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" onclick="showSuccessMessage(event)">Submit</button>
             </form>
-          </div>
-        </div>
-    
-        <div class=" col-md-2">
-          <div class="card contact-card">
-            <div class="card-body">
-              <h5 class="card-title">Click the direct links below...</h5>
-              <div class="contact-links">
-                <div class="contact-links-row">
-                  <a href="mailto:hectorjulius51@gmail.com" class="contact-link">
-                    <i class="far fa-envelope"></i>
-                    <span class="contact-link-text">Send Email</span>
-                  </a>
-                  <a href="tel:+254716656513" class="contact-link">
-                    <i class="fas fa-phone-volume"></i>
-                    <span class="contact-link-text">+254716656513</span>
-                  </a>
-                  <a href="https://msng.link/o/?hector_julius_4l_=ig" class="contact-link">
-                    <i class="fab fa-instagram"></i>
-                    <span class="contact-link-text">Message me on Instagram</span>
-                  </a>
-                  <a href="https://wa.me/+254716656513" class="contact-link">
-                    <i class="fab fa-whatsapp"></i>
-                    <span class="contact-link-text">Whatsapp me</span>
-                  </a>
+            
+            <!-- Success Modal -->
+            <div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="success-modal-label" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  
+                    <h5 class="modal-title" id="success-modal-label">Message sent successfully!</h5>
+                  <div class="modal-body">
+                    <p style="color: black;">Message sent successfully!</p>
+                  </div>
+                  
                 </div>
               </div>
             </div>
+            
+            <script>
+              function showSuccessMessage(event) {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+            
+                // You can perform additional validation or processing here
+            
+                // Show the success modal
+                $('#success-modal').modal('show');
+            
+                // Refresh the page after a short delay (e.g., 2 seconds)
+                setTimeout(function() {
+                  location.reload();
+                }, 2000);
+              }
+            </script>
+            
+            
+            
+          </div>
+            
+            <div class="contact-form  contact-links-row">
+              <h5 >Click here for direct links...</h5>
+                <a href="mailto:hectorjulius51@gmail.com" class="contact-link">
+                  <i class="far fa-envelope"></i>
+                  <span class="contact-link-text">Send Email</span>
+                </a>
+                <a href="tel:+254716656513" class="contact-link">
+                  <i class="fas fa-phone-volume"></i>
+                  <span class="contact-link-text">+254716656513</span>
+                </a>
+                <a href="https://msng.link/o/?hector_julius_4l_=ig" class="contact-link">
+                  <i class="fab fa-instagram"></i>
+                  <span class="contact-link-text">Message me on Instagram</span>
+                </a>
+                <a href="https://wa.me/+254716656513" class="contact-link">
+                  <i class="fab fa-whatsapp"></i>
+                  <span class="contact-link-text">Whatsapp me</span>
+                </a><br><br><br><br><br>
+
+                <h9 style="font-family: Times New Roman, serif;">Created By :
+                  Hector . J . Muoka <br> @2023  Nairobi , Kenya.
+
+                </h9>
+              </div>
           </div>
           
-      </div>
+        </div>
+    
+        
+         
+        
+          
+
     
     
     
