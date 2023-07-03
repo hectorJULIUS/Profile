@@ -402,7 +402,7 @@
     height: 40px;
     border-radius: 50%;
     border: 4px solid #f3f3f3;
-    border-top: 4px solid #3498db;
+    border-top: 4px solid #000000;
     animation: spin 1s linear infinite;
     margin-right: 10px;
   }
@@ -454,6 +454,31 @@
       transform: translateY(0);
     }
   }
+  .fading-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   
+  .fading-circle .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    animation: fade 1s linear infinite;
+  }
+  
+  @keyframes fade {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+    
   
    
